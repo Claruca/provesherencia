@@ -3,6 +3,7 @@ public class Persona {
     private String llinatges;
     private String dni;
 
+    public static int contador;
 
     public String getNom() {
         return nom;
@@ -29,10 +30,11 @@ public class Persona {
     }
 
     public Persona() {
-        super.toString();
+        contador++;
         }
 
     public Persona(String nom, String llinatges, String dni) {
+            contador++;
             this.nom = nom;
             this.llinatges = llinatges;
             this.dni = dni;
