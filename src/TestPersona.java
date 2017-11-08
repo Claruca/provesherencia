@@ -10,6 +10,10 @@ public class TestPersona {
         System.out.println(jose.getNom());
         System.out.println(Persona.contador);
 
+        System.out.println(jose.getEmail());
+        System.out.println(jose.getEmail("gmail"));
+
+
         pep.queSom();
         jose.queSom();
 

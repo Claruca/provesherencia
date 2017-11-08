@@ -6,9 +6,20 @@ public class Alumne extends Persona implements Concursant {
     public String getEmail() {
         return this.getNom().toLowerCase() + "@iesemilidarder.com";
     }
+    public String getEmail(String domini){
+        return this.getNom() + "@domini.es";
+    }
 
 
+    public float nota;
 
+    public float getNota() {
+        return nota;
+    }
+
+    public void setNota(float nota) {
+        this.nota = nota;
+    }
 
 
     public Alumne(String nom, String llinatges, String dni) {
@@ -16,7 +27,6 @@ public class Alumne extends Persona implements Concursant {
 
         super.queSom();
     }
-
 
 
     @Override
