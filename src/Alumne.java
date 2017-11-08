@@ -3,11 +3,16 @@ public class Alumne extends Persona implements Concursant {
     public void concursar() {
         System.out.println("Estic concursant");
     }
+
+
+    //Exemple overloading mètodes
     public String getEmail() {
         return this.getNom().toLowerCase() + "@iesemilidarder.com";
     }
+
+
     public String getEmail(String domini){
-        return this.getNom() + "@domini.es";
+        return this.getNom()+"@" + domini + ".es";
     }
 
 

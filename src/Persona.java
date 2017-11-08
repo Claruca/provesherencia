@@ -3,6 +3,7 @@ public class Persona {
     private String llinatges;
     private String dni;
 
+    //Atribut static, no canvia amb la classe(parescut al main)
     public static int contador;
 
     public String getNom() {
