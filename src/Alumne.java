@@ -9,7 +9,7 @@ public class Alumne extends Persona {
 
     public Alumne(String nom, String llinatges, String dni) {
         super(nom, llinatges, dni);
-        this.getNota();
+
         super.queSom();
     }
 
